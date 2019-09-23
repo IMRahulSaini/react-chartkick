@@ -54,6 +54,11 @@ Area chart
 ```jsx
 <AreaChart data={{"2017-01-01": 11, "2017-01-02": 6}} />
 ```
+Bubble chart
+
+```jsx
+<BubbleChart data={[[0.5, 0.8, 5], [0.7, 0.7, 10]]} xtitle="Performance" ytitle="Engagement" />
+```
 
 Scatter chart
 
